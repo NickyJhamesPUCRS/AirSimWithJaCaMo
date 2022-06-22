@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  airsim:
+    build: ./airsim
+    command: >
+      bash -c "tail -f /dev/null"
